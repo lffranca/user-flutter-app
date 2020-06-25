@@ -84,6 +84,9 @@ class _LoginPageState extends State<LoginPage> {
                         height: 10,
                       ),
                       TextFormField(
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
                         decoration: firstThemeLoginTextFormDecoration("Senha"),
                         keyboardType: TextInputType.text,
                         obscureText: true,

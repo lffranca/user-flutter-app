@@ -31,7 +31,7 @@ class LandingPage extends StatelessWidget {
         }
 
         if (snapshot.data.isAuth) {
-          return UserPage();
+          return UserPage(authController);
         } else {
           return LoginPage(authController);
         }

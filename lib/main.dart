@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:suflex/pages/landing.page.dart';
+import 'package:suflex/pages/user.new.page.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,6 +18,9 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: LandingPage(),
+      routes: <String, WidgetBuilder>{
+        '/user-new': (BuildContext context) => new UserNewPage(),
+      },
     );
   }
 }

@@ -57,3 +57,55 @@ InputDecoration firstThemeLoginTextFormDecoration(String labelText) {
     ),
   );
 }
+
+InputDecoration firstThemeLoginTextBlackFormDecoration(String labelText) {
+  return InputDecoration(
+    labelText: labelText,
+    labelStyle: TextStyle(
+      color: Colors.black,
+    ),
+    fillColor: Colors.black,
+    focusedBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(50.0),
+      borderSide: BorderSide(
+        width: 1,
+        color: Colors.black,
+      ),
+    ),
+    disabledBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(50.0),
+      borderSide: BorderSide(
+        width: 1,
+        color: Colors.black,
+      ),
+    ),
+    enabledBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(50.0),
+      borderSide: BorderSide(
+        width: 1,
+        color: Colors.black,
+      ),
+    ),
+    border: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(50.0),
+      borderSide: BorderSide(
+        width: 1,
+        color: Colors.black,
+      ),
+    ),
+    errorBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(50.0),
+      borderSide: BorderSide(
+        width: 1,
+        color: Colors.red,
+      ),
+    ),
+    focusedErrorBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(50.0),
+      borderSide: BorderSide(
+        width: 1,
+        color: Colors.red,
+      ),
+    ),
+  );
+}
